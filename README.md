@@ -10,7 +10,7 @@
 - Fully Responsive and well organized.
 - Image optimization with Gatsby.
 
-To view a live demo, [**click here**](https://gatsby-simplefolio.netlify.com/)
+To view a live demo, [**click here**](https://zhon12345.github.io/)
 
 ---
 
