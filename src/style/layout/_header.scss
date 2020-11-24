@@ -1,0 +1,13 @@
+.main { 
+    background-color: $background;
+
+    .navbar-nav .nav-link {
+        color: #fff;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    .navbar-nav:hover .nav-link:hover {
+        color: $primary-color;
+    }
+} 
