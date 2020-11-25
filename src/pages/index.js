@@ -12,19 +12,19 @@ export default () => {
         <title>Ng Zhun Onn - A Full Time Student and a JavaScipt Developer</title>
         <meta name="url" content="https://zhon12345.github.io/" />
         <meta name="title" content="Ng Zhun Onn - A Full Time Student and a JavaScipt Developer"/>
-        <meta name="description" content="Ng Zhun Onn - A full-time student from Kuala Lumpur, Malaysia. Who has created projects such as Tavern Keeper, Snake Game and a simple Calculator."/>
+        <meta name="description" content="Ng Zhun Onn - A full-time student from Kuala Lumpur, Malaysia. Who has created projects such as Tavern Keeper, a Snake Game replica and a simple Calculator."/>
         <meta name="image" content="https://i.imgur.com/maYD06i.png" />
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://zhon12345.github.io/"/>
         <meta property="og:title" content="Ng Zhun Onn - A Full Time Student and a JavaScipt Developer"/>
-        <meta property="og:description" content="Ng Zhun Onn - A full-time student from Kuala Lumpur, Malaysia. Who has created projects such as Tavern Keeper, Snake Game and a simple Calculator."/>
+        <meta property="og:description" content="Ng Zhun Onn - A full-time student from Kuala Lumpur, Malaysia. Who has created projects such as Tavern Keeper, a Snake Game replica and a simple Calculator."/>
         <meta property="og:image:url" content="https://i.imgur.com/maYD06i.png"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://zhon12345.github.io/"/>
         <meta property="twitter:title" content="Ng Zhun Onn - A Full Time Student and a JavaScipt Developer"/>
-        <meta property="twitter:description" content="Ng Zhun Onn - A full-time student from Kuala Lumpur, Malaysia. Who has created projects such as Tavern Keeper, Snake Game and a simple Calculator."/>
+        <meta property="twitter:description" content="Ng Zhun Onn - A full-time student from Kuala Lumpur, Malaysia. Who has created projects such as Tavern Keeper, a Snake Game replica and a simple Calculator."/>
         <meta property="twitter:image" content="https://i.imgur.com/maYD06i.png"/>
 			</Helmet>
       <App />
