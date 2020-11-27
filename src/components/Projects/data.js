@@ -1,0 +1,38 @@
+export const projects = [
+	{
+		img: 'tavern-keeper.png',
+		title: 'Tavern Keeper',
+		info: 'Tavern Keeper is a Discord bot that aims to combines features of multiple bots into one multipurpose Discord bot. Tavern Keeper offers many features such as Image Manipulation, Moderation, Utilities and many more!',
+		button1: 'Invite Me',
+		button2: 'View Website',
+		link1: 'https://discord.com/oauth2/authorize?client_id=722054700308103200&scope=bot&permissions=1007807606',
+		link2: 'https://tavernkeeper.ml/',
+	},
+	{
+		img: 'rps.png',
+		title: 'Rock Paper Scissors',
+		info: "This the classic Rock Paper Scissors game that you probably played as a kid. It is coded using HTML, CSS and Vanilla JavaScript. Instead of playing with another user, you're playing a best out of 15 rounds game against a computer.",
+		button1: '',
+		button2: '',
+		link1: 'https://zhon12345-rps.netlify.app',
+		link2: 'https://github.com/zhon12345/rock-paper-scissors',
+	},
+	{
+		img: 'snake.png',
+		title: 'Snake Game',
+		info: 'This is a simple and modern snake game coded using HTML, CSS and Vanilla JavaScript. You can move the snake using the <code>WASD</code> keys or the <code>Arrow Keys</code>. There is also a counter on the top left that helps you keep track of your score.',
+		button1: '',
+		button2: '',
+		link1: 'https://zhon12345-snake-game.netlify.app',
+		link2: 'https://github.com/zhon12345/snake-game',
+	},
+	{
+		img: 'calculator.png',
+		title: 'Calculator',
+		info: "This is a simple calculator coded using HTML, CSS and Vanilla JavaScript. It has all the features of a normal calculator plus the ability to change the calculator's color theme by clicking on the top left button and choosing one of the colors given.",
+		button1: '',
+		button2: '',
+		link1: 'https://zhon12345-calculator.netlify.app',
+		link2: 'https://github.com/zhon12345/simple-calculator',
+	},
+];
