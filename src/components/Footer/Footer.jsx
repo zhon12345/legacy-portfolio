@@ -12,48 +12,28 @@ const Footer = () => {
 					</Link>
 				</span>
 				<div className='social-links'>
-					<a
-						href='https://discord.gg/jMpw3jw'
-						rel='noopener noreferrer'
-						target='_blank'
-						aria-label='discord'
-					>
+					<a href='https://discord.gg/jMpw3jw' rel='noopener noreferrer' target='_blank' aria-label='discord'>
 						<i className='fab fa-discord' />
 					</a>
-					<a
-						href='https://github.com/zhon12345'
-						rel='noopener noreferrer'
-						target='_blank'
-						aria-label='github'
-					>
+					<a href='https://github.com/zhon12345' rel='noopener noreferrer' target='_blank' aria-label='github'>
 						<i className='fab fa-github' />
 					</a>
-					<a
-						href='https://twitter.com/zhon12345'
-						rel='noopener noreferrer'
-						target='_blank'
-						aria-label='twitter'
-					>
+					<a href='https://twitter.com/zhon12345' rel='noopener noreferrer' target='_blank' aria-label='twitter'>
 						<i className='fab fa-twitter' />
 					</a>
-					<a
-						href='https://dev.to/zhon12345'
-						rel='noopener noreferrer'
-						target='_blank'
-						aria-label='dev'
-					>
+					<a href='https://dev.to/zhon12345' rel='noopener noreferrer' target='_blank' aria-label='dev'>
 						<i className='fab fa-dev' />
 					</a>
 				</div>
 				<hr />
 				<p className='footer__text'>
 					© {new Date().getFullYear()} - Made with ❤ by{' '}
-					<a
-						href='https://github.com/zhon12345'
-						target='_blank'
-						rel='noopener noreferrer'
-					>
+					<a href='https://github.com/zhon12345' target='_blank' rel='noopener noreferrer'>
 						zhon12345
+					</a>
+					, template by{' '}
+					<a href='https://github.com/cobidev' target='_blank'>
+						Jacobo Martinez
 					</a>
 				</p>
 			</Container>
