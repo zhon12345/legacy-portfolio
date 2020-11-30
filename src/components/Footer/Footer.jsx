@@ -7,7 +7,7 @@ const Footer = () => {
 		<footer className='footer navbar-static-bottom'>
 			<Container>
 				<span className='back-to-top'>
-					<Link to='header' smooth duration={1000} aria-hidden='true'>
+					<Link to='hero' smooth duration={1000} aria-hidden='true'>
 						<i className='fas fa-angle-up fa-2x' />
 					</Link>
 				</span>

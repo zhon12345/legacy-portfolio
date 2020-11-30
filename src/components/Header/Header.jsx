@@ -1,30 +1,44 @@
-import React from "react"
-import {Navbar, Nav} from 'react-bootstrap'
-import { Container } from "react-bootstrap"
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
-import logo from "../../images/favicon.png"
+import Headroom from 'react-headroom';
 
 const Header = () => {
 	return (
-		<header id="header" sticky="top" className="main">
-			<Container>
-				<Navbar collapseOnSelect expand="sm" variant="dark">
-					<Navbar.Brand href="#">
-						<img src={logo} alt="logo" width="50" height="50" />
-					</Navbar.Brand>
-					<Navbar.Toggle aria-controls="responsive-navbar" />
-					<Navbar.Collapse id="responsive-navbar">
-						<Nav className="ml-auto">
-							<Link className="nav-link" smooth duration={1000} to="hero">Home</Link>
-							<Link className="nav-link" smooth duration={1000} to="about">About Me</Link>
-							<Link className="nav-link" smooth duration={1000} to="projects">Projects</Link>
-							<Link className="nav-link" smooth duration={1000} to="contact">Contact Me</Link>
-						</Nav>
-					</Navbar.Collapse>
-				</Navbar>
-			</Container>
-		</header>
-	)
-}
+		<Headroom
+			style={{
+				webkitTransition: 'all .5s ease-in-out',
+				mozTransition: 'all .5s ease-in-out',
+				oTransition: 'all .5s ease-in-out',
+				transition: 'all .5s ease-in-out',
+			}}
+		>
+			<header id='header' className='main'>
+				<Container>
+					<Navbar collapseOnSelect expand='sm' variant='dark'>
+						<Navbar.Toggle aria-controls='responsive-navbar' />
+						<Navbar.Collapse id='responsive-navbar'>
+							<Nav className='ml-auto'>
+								<Link className='nav-link' smooth duration={1000} to='hero'>
+									Home
+								</Link>
+								<Link className='nav-link' smooth duration={1000} to='about'>
+									About Me
+								</Link>
+								<Link className='nav-link' smooth duration={1000} to='projects'>
+									Projects
+								</Link>
+								<Link className='nav-link' smooth duration={1000} to='contact'>
+									Contact Me
+								</Link>
+							</Nav>
+						</Navbar.Collapse>
+					</Navbar>
+				</Container>
+			</header>
+		</Headroom>
+	);
+};
 
-export default Header
+export default Header;
