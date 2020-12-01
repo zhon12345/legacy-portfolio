@@ -1,6 +1,6 @@
 ## Ng Zhun Onn's Personal Portfolio
 
-A clean, beautiful and responsive portfolio. To view a live demo, [click here](https://zhon12345.github.io/).
+A clean, beautiful and responsive portfolio where I display my cool projects. To view a live version, [click here](https://zhon12345.github.io/).
 
 ## ✨ Features
 
