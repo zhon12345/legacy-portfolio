@@ -1,8 +1,8 @@
-# Ng Zhun Onn's Personal Portfolio
+## Ng Zhun Onn's Personal Portfolio
 
-### A clean, beautiful and responsive portfolio.
+A clean, beautiful and responsive portfolio where I display my cool projects. To view a live version, [click here](https://zhon12345.github.io/).
 
-## Features
+## ✨ Features
 
 - Modern UI Design + Reveal Animations.
 - One Page Layout built with React.
@@ -10,14 +10,12 @@
 - Fully Responsive and well organized.
 - Image optimization with Gatsby.
 
-To view a live demo, [**click here**](https://zhon12345.github.io/)
-
 ---
 
-## License 📄
+## 📄 License 
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details
 
-## Acknowledgments 🎁
+## 🎁 Acknowledgments
 
-I'd like to give a big thanks to [**Jacobo Martinez**](https://github.com/cobidev) for creating this template. Since the template was so simple to edit and make it my own, I was motivated to turn this template into my very own portfolio.
+I'd like to acknowledge [Jacobo Martinez](https://github.com/cobidev) for creating this template. You can take a look at the original template [here](https://github.com/cobidev/gatsby-simplefolio).
