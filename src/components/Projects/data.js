@@ -15,7 +15,7 @@ export const projects = [
 		button1: '',
 		button2: '',
 		link1: 'https://zhon12345-rps.netlify.app',
-		link2: 'https://github.com/zhon12345/rock-paper-scissors',
+		link2: 'https://github.com/zhon12345/Web-Applications/tree/Rock-Paper-Scissors',
 	},
 	{
 		img: 'snake.png',
@@ -24,7 +24,7 @@ export const projects = [
 		button1: '',
 		button2: '',
 		link1: 'https://zhon12345-snake-game.netlify.app',
-		link2: 'https://github.com/zhon12345/snake-game',
+		link2: 'https://github.com/zhon12345/Web-Applications/tree/Snake-Game',
 	},
 	{
 		img: 'calculator.png',
@@ -33,6 +33,6 @@ export const projects = [
 		button1: '',
 		button2: '',
 		link1: 'https://zhon12345-calculator.netlify.app',
-		link2: 'https://github.com/zhon12345/simple-calculator',
+		link2: 'https://github.com/zhon12345/Web-Applications/tree/Simple-Calculator',
 	},
 ];
